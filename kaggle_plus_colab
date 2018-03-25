@@ -1,0 +1,5 @@
+In Colab:
+
+!pip install kaggle
+!kaggle competitions download -c competition_name -w
+!ls
