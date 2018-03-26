@@ -1,5 +1,9 @@
-In Colab:
-
+# In Colab:
+# Firstly download kaggle.json from your kaggle account
+from google.colab import files
+uploaded = files.upload() # choose kaggle.json to upload
+!mkdir .kaggle
+!mv kaggle.json .kaggle/kaggle.json
 !pip install kaggle
 !kaggle competitions download -c competition_name -w
-!ls
+!ls # you should see all training files
